@@ -5,10 +5,14 @@ body {
 }
 
 header {
+  position: sticky;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
+  background-color: #fff;
+  top: 0;
+  z-index: 1;
 }
 
 a {
@@ -91,6 +95,7 @@ button:hover {
   animation-timing-function: linear;
   animation-delay: 0;
   animation-iteration-count: infinite;
+  position: absolute;
 }
 
 .form {
